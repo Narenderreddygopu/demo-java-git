@@ -34,7 +34,6 @@
             text-align: center; /* Center align text */
         }
 
-
     </style>
 </head>
 <body>
