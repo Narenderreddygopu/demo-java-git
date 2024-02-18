@@ -12,7 +12,8 @@
         #project-title {
             text-align: center;
             color: red; /* Change color to the desired regular color */
-            font-size: 36px; /* Set the font size to 18 pixels */
+            font-size: 40px; /* Set the font size to 18 pixels */
+            text-decoration: underline; /* Add underline text decoration */
         }
     </style>
 </head>
