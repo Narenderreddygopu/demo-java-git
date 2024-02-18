@@ -55,7 +55,7 @@
     </span>
     
     <!-- Add Mickey Mouse image -->
-    <img class="mickey" src="mickey_mouse_image.jpg" alt="Mickey Mouse">
+    <img class="mickey" src=""C:\Users\gopur\OneDrive\Pictures\mickey_mouse_image.jpeg"" alt="Mickey Mouse">
 </div>
 
 </body>
