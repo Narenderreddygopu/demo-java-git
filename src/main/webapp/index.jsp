@@ -23,12 +23,13 @@
             text-align: center;
         }
         .frame {
-            border: 3px solid #000; /* Black border with 3px width */
+            border: 4px solid #4CAF50; /* Green border with 4px width */
+            border-radius: 20px; /* Rounded corners */
             padding: 20px; /* Add some padding inside the frame */
-            width: 90%; /* Set the width of the frame */
-            margin: 0 auto; /* Center the frame horizontally */
-            box-sizing: border-box; /* Include border and padding in the width */
-            overflow: auto; /* Add scrollbar if content overflows */
+            width: 80%; /* Set the width of the frame */
+            margin: 50px auto; /* Center the frame horizontally with top margin */
+            background-color: #fff; /* White background color */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Add shadow effect */
         }
     </style>
 </head>
