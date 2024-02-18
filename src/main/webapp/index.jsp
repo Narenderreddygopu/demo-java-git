@@ -10,7 +10,7 @@ h2 {
     my-text {
   font-family: 'Times New Roman', Times, serif;
   font-style: italic;
-  color: green; /* You can replace "blue" with any color value you prefer */
+  color:green; /* You can replace "blue" with any color value you prefer */
   text-align: center;
 }
 
