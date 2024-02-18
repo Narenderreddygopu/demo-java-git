@@ -18,6 +18,7 @@
         #highlighted {
             font-weight: bold;
             color: blue; /* Change color to the desired color */
+            font-style: italic; 
             font-size: 36px; /* Set the font size to 24 pixels */
             text-align: center;
         }
@@ -36,9 +37,12 @@
 
 
 <span id="highlighted">
-***************************************
+
+
+
+***********************************
 *  Narender  *
-***************************************
+***********************************
 </span>
 
 
