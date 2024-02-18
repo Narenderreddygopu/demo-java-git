@@ -12,6 +12,7 @@
         #project-title {
             text-align: center;
             color: black; /* Change color to the desired regular color */
+            font-size: 18px; /* Set the font size to 18 pixels */
         }
     </style>
 </head>
