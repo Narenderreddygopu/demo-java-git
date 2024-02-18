@@ -35,7 +35,9 @@
         }
         .mickey {
             display: block; /* Make the image a block element */
-            margin: 20px auto; /* Center the image horizontally with some top margin */
+            margin: 30px auto; /* Center the image horizontally with some top margin */
+            width: 70%; /* Set the width of the image to 70% of the frame width */
+            height: auto; /* Maintain aspect ratio */
         }
     </style>
 </head>
@@ -47,9 +49,9 @@
     <h2>My first project deploying on Tomcat with the help of Jenkins and ngrok_webhook_trigger</h2>
 
     <span id="highlighted">
-        **********************************
+        ******************************
         * Narender *
-        **********************************
+        ******************************
     </span>
     
     <!-- Add Mickey Mouse image -->
