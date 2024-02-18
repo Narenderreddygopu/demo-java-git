@@ -33,12 +33,7 @@
             font-size: 36px; /* Set font size */
             text-align: center; /* Center align text */
         }
-        .mickey {
-            display: block; /* Make the image a block element */
-            margin: 20px auto; /* Center the image horizontally with some top margin */
-            width: 300px; /* Set the width of the image */
-            height: auto; /* Maintain aspect ratio */
-        }
+       
     </style>
 </head>
 <body>
@@ -53,10 +48,6 @@
         * Narender *
         ***************************
     </span>
-    
-    <!-- Add Mickey Mouse image -->
-    <img class="mickey" src=""C:\Users\gopur\OneDrive\Pictures\mickey_mouse_image.jpeg"" alt="Mickey Mouse">
-</div>
 
 </body>
 </html>
