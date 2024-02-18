@@ -9,11 +9,16 @@
             color: green; /* You can replace "green" with any color value you prefer */
             text-align: center;
         }
+        #project-title {
+            text-align: center;
+            color: black; /* Change color to the desired regular color */
+        }
     </style>
 </head>
 <body>
 
-<h2>My Demo Project: My first project deploying on Tomcat with the help of Jenkins and ngrok_webhook_trigger</h2>
+<h2 id="project-title">My Demo Project</h2>
+<h2>My first project deploying on Tomcat with the help of Jenkins and ngrok_webhook_trigger</h2>
 
 </body>
 </html>
