@@ -6,31 +6,38 @@
         h2 {
             font-family: 'Times New Roman', Times, serif;
             font-style: italic;
-            color: green; /* You can replace "green" with any color value you prefer */
+            color: green; 
             text-align: center;
         }
         #project-title {
             text-align: center;
-            color: red; /* Change color to the desired regular color */
-            font-size: 42px; /* Set the font size to 42 pixels */
-            text-decoration: underline; /* Add underline text decoration */
+            color: red; 
+            font-size: 42px; 
+            text-decoration: underline; 
         }
         #highlighted {
             font-weight: bold;
-            color: blue; /* Change color to the desired color */
+            color: blue;
             font-style: italic; 
-            font-size: 36px; /* Set the font size to 36 pixels */
+            font-size: 36px; 
             text-align: center;
-            display: block; /* Make the span a block element */
-            margin: 0 auto; /* Center the block element horizontally */
+            display: block; 
+            margin: 0 auto; 
         }
     </style>
 </head>
 <body>
 
-<h2 id="project-title">My Demo Project</h2>
+<h2 id="project-title">My  Demo  Project</h2>
+
 
 <h2>My first project deploying on Tomcat with the help of Jenkins and ngrok_webhook_trigger</h2>
+
+
+
+
+
+
 
 <span id="highlighted">
 **********************************
