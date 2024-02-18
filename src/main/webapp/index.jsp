@@ -18,14 +18,20 @@
         #highlighted {
             font-weight: bold;
             color: blue; /* Change color to the desired color */
+<h2 id="project-title">My Demo Project</h2>
+<span id="highlighted">
+*************
+*  Narender  *
+************* </span>
+
+
         }
     </style>
 </head>
 <body>
 
-<h2 id="project-title">My Demo Project</h2>
+
 <h2>My first project deploying on Tomcat with the help of Jenkins and ngrok_webhook_trigger</h2>
-<h2>My first project deploying on Tomcat with the help of Jenkins and <span id="highlighted">**Narender**</span> and ngrok_webhook_trigger</h2>
 
 </body>
 </html>
