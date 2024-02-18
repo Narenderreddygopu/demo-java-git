@@ -33,7 +33,8 @@
             font-size: 36px; /* Set font size */
             text-align: center; /* Center align text */
         }
-       
+
+
     </style>
 </head>
 <body>
