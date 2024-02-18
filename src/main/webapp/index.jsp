@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>My First Project</title>
+    <title>My Demo Project</title>
     <style>
         h2 {
             font-family: 'Times New Roman', Times, serif;
