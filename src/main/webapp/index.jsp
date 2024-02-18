@@ -13,7 +13,7 @@
             width: 80%; /* Set the width of the frame */
             margin: 50px auto; /* Center the frame horizontally with top margin */
             background-color: #fff; /* White background color */
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Add shadow effect */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.4); /* Add shadow effect */
         }
         h2 {
             font-family: 'Times New Roman', Times, serif;
