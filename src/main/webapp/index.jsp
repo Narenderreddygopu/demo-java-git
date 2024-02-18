@@ -18,20 +18,29 @@
         #highlighted {
             font-weight: bold;
             color: blue; /* Change color to the desired color */
-            font-size: 24px; /* Set the font size to 24 pixels */
+            font-size: 36px; /* Set the font size to 24 pixels */
+            text-align: center;
         }
     </style>
 </head>
 <body>
 
 <h2 id="project-title">My Demo Project</h2>
-<span id="highlighted">
-*************
-*  Narender  *
-************* 
-</span>
 
 <h2>My first project deploying on Tomcat with the help of Jenkins and ngrok_webhook_trigger</h2>
+
+
+
+
+
+
+
+<span id="highlighted">
+***************************************
+*  Narender  *
+***************************************
+</span>
+
 
 </body>
 </html>
