@@ -19,8 +19,10 @@
             font-weight: bold;
             color: blue; /* Change color to the desired color */
             font-style: italic; 
-            font-size: 36px; /* Set the font size to 24 pixels */
+            font-size: 36px; /* Set the font size to 36 pixels */
             text-align: center;
+            display: block; /* Make the span a block element */
+            margin: 0 auto; /* Center the block element horizontally */
         }
     </style>
 </head>
@@ -30,21 +32,11 @@
 
 <h2>My first project deploying on Tomcat with the help of Jenkins and ngrok_webhook_trigger</h2>
 
-
-
-
-
-
-
 <span id="highlighted">
-
-
-
-********************************
+**********************************
  * Narender *
-*********************************
+**********************************
 </span>
-
 
 </body>
 </html>
