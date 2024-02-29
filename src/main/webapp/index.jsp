@@ -44,7 +44,7 @@
     <h2>My first project deploying on Tomcat with the help of Jenkins and ngrok_webhook_trigger</h2>
 
     <span id="highlighted">
-        **************************
+        *************************
         * Narender *
         **************************
     </span>
