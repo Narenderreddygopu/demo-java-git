@@ -44,8 +44,14 @@
       border-radius: 10px;
       box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     }
-    h1, h2, h3 {
-      color: #90ee90;
+    h1 {
+      color: #ff0000; /* Red color for h1 */
+    }
+    h2 {
+      color: #00ff00; /* Green color for h2 */
+    }
+    h3 {
+      color: #0000ff; /* Blue color for h3 */
     }
     p {
       margin-bottom: 10px;
