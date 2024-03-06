@@ -467,7 +467,7 @@
     <hr>
     <a href="https://codepen.io/Narender-Reddy-Gopu" class="button" style="font-size:30px">Codepen &nbsp;<i class="fa fa-codepen"></i></a>
     <hr>
-    <a href="https://www.linkedin.com/in/narendergopu" class="button" style="font-size:30px">LinkedIn &nbsp;<i class="fa fa-linkedin"></i></a>
+    <a href="https://www.linkedin.com/in/narendergopu/" class="button" style="font-size:30px">LinkedIn &nbsp;<i class="fa fa-linkedin"></i></a>
     <hr>
     <a href="https://www.instagram.com/" class="button" style="font-size:30px">Instagram <i class="fa fa-instagram"></i></a>
     <hr>
