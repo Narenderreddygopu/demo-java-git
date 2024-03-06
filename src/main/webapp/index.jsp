@@ -26,7 +26,7 @@
       box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     }
     h1, h2, h3 {
-      color: #333;
+      color: #007bff;
     }
     p {
       margin-bottom: 10px;
