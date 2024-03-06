@@ -3,221 +3,475 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Narender Reddy Gopu - Data Engineer</title>
+  <title>Resume</title>
   <style>
+    @import url(https://fonts.googleapis.com/css?family=Lobster);
+    @import url(https://fonts.googleapis.com/css?family=Sigmar+One);
+    @import url(https://fonts.googleapis.com/css?family=Dancing+Script);
+    @import url(https://fonts.googleapis.com/css?family=Amatic+SC);
+    @import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css);
+
     body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-      background-color: #000000;
-    }
-    body {
-      background-color: #f0f0f0; /* Background color */
-      color: #333; /* Text color */
-      padding-top: 20px; /* Add some padding at the top */
-      font-family: Arial, sans-serif; /* Set font family */
+      background: #bbb;
+      display: flex;
     }
 
-    /* Container for the photo */
-    .photo-container {
+    img {
       position: absolute;
-      top: 20px;
-      right: 20px;
+      top: 45px;
+      border-radius: 50%;
+      border: 5px solid black;
+      box-shadow: 0 5px 10px 0 black;
     }
-    /* Style for the photo */
-    .photo-container img {
-      width: 150px; /* Set width of the photo */
-      border-radius: 50%; /* Make it circular */
+
+    img:hover {
+      filter: grayscale(100%);
+      transform: scale(1.1);
+      top: 55px;
     }
-    header {
-      background-color: #c0c0c0;
-      color: #404040;
-      padding: 20px;
+
+    .side-ban {
+      position: absolute;
+      height: 20px;
+      width: 750px;
+      background: yellow;
+      border: 2px solid black;
+      box-shadow: 0 5px 5px 0 black;
+    }
+
+    .side-ban h2 {
+      position: absolute;
+      font-family: Dancing script;
+      left: 260px;
+      top: 260px;
+      font-size: 2em;
+    }
+
+    .side-ban h3 {
+      position: absolute;
+      font-family: Pacifico;
+      left: 390px;
+      top: 370px;
+      font-size: 2.2em;
+      text-shadow: 2px 2px 10px yellow;
+    }
+
+    .side-ban h4 {
+      position: absolute;
+      font-family: Dancing script;
+      top: 430px;
+      left: 390px;
+      font-size: 1.8em;
+      text-align: right;
+      text-shadow: 2px 2px 8px white;
+    }
+
+    .wave {
+      position: absolute;
+      height: 200px;
+      width: 200px;
+      border-right: 4px solid yellow;
+      border-radius: 141px 0px 141px 0px;
+      top: 150px;
+      left: 290px;
+    }
+
+    .wave::after {
+      content: "";
+      position: absolute;
+      height: 200px;
+      width: 200px;
+      border-left: 4px solid yellow;
+      border-radius: 141px 0px 141px 0px;
+      left: -55px;
+      top: -10px;
+    }
+
+    .tag {
+      position: absolute;
+      height: 320px;
+      width: 300px;
+      background: black;
+      clip-path: polygon(100% 0, 100% 75%, 50% 100%, 0 75%, 0 0);
+      left: 510px;
+      font-size: 1.8em;
+      text-align: center;
+      color: white;
+      font-family: Amatic SC;
+      text-shadow: 2px 2px 8px black;
+    }
+
+    .tag:hover {
+      height: 370px;
+      top: 90px;
+      color: yellow;
+    }
+
+    .fa fa-envelope {
+      font-size: 24px;
+    }
+
+    .loc-sign {
+      position: absolute;
+      height: 30px;
+      width: 30px;
+      background: red;
+      top: 130px;
+      left: 20px;
+      border-radius: 50% 0 50% 50%;
+      transform: rotate(135deg);
+    }
+
+    .cir-sign {
+      position: absolute;
+      height: 12px;
+      width: 12px;
+      background: black;
+      left: 9px;
+      top: 10px;
+      border-radius: 50%;
+    }
+
+    .edu-banner {
+      position: absolute;
+      height: 150px;
+      width: 350px;
+      background: yellow;
+      top: 380px;
+      border-radius: 40% 5% 40% 5%;
+      text-align: center;
+      box-shadow: 0 7px 10px 0 black, inset 0 0 5px 0 black;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    .edu-banner h2 {
+      font-family: Lobster;
+      font-size: 2em;
+    }
+
+    .edu-banner h3 {
+      font-family: Amatic SC;
+      font-size: 2em;
+      transform: scale(1.2);
+    }
+
+    .edu-banner img {
+      position: absolute;
+      top: 80px;
+      left: 20px;
+      border: 2px solid black;
+      box-shadow: 0 0 10px 0 black;
+    }
+
+    .edu-banner:hover {
+      height: 300px;
+    }
+
+    .skills {
+      position: absolute;
+      height: 100px;
+      width: 200px;
+      background: yellow;
+      top: 320px;
+      left: 800px;
+      border-radius: 50%;
+      box-shadow: 5px 10px 5px black, inset 0 0 5px 0 black;
+      text-align: center;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    .skills h2 {
+      font-family: Lobster;
+      font-size: 2em;
+    }
+
+    .skills:hover {
+      border-radius: 0;
+      height: 390px;
+      width: 280px;
+      font-size: 1em;
+      background: black;
+      color: yellow;
+      z-index: 2;
+    }
+
+    .b {
+      font-family: Monospace;
+      text-align: left;
+      font-size: 1.7em;
+      color: white;
+      list-style-type: square;
+    }
+
+    .b:hover {
+      color: red;
+      margin: 10px;
+    }
+
+    .exp {
+      position: absolute;
+      height: 100px;
+      width: 320px;
+      background: black;
+      left: 950px;
+      top: 220px;
+      text-align: center;
+      clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 15% 50%, 0% 0%);
+      animation: display 5s linear forwards;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      z-index: 2;
+    }
+
+    .exp h2 {
+      font-family: Sigmar one;
+      font-size: 1.5em;
+      color: yellow;
+    }
+
+    .exp:hover {
+      height: 650px;
+      width: 550px;
+      left: 900px;
+      animation-play-state: paused;
+      -webkit-animation-play-state: paused;
+    }
+
+    .c {
+      font-family: Amatic SC;
+      font-size: 1.8em;
+      color: white;
+      text-shadow: 2px 2px 8px black;
       text-align: center;
     }
-    .container {
-      max-width: 800px;
-      margin: 20px auto;
-      padding: 0 20px;
-      background-color: #fff;
-      border-radius: 10px;
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+    .c:hover {
+      color: red;
     }
-    h1 {
-      color: #ff0000; /* Red color for h1 */
+
+    @keyframes display {
+      20% {
+        transform: translateY(-40px);
+      }
+      40% {
+        transform: translateY(-80px);
+      }
+      60% {
+        transform: translateY(-120px);
+      }
+      80% {
+        transform: translateY(-160px);
+      }
+      100% {
+        transform: translateY(-200px);
+      }
     }
-    h2 {
-      color: #00ff00; /* Green color for h2 */
+
+    .contact {
+      position: absolute;
+      height: 80px;
+      width: 180px;
+      top: 60px;
+      left: 300px;
+      background: white;
+      transform: rotate(-4deg);
+      box-shadow: 0 3px 10px 5px black, inset 0 2px 5px 0 black;
+      animation: move 2s linear infinite;
+      text-align: center;
+      font-family: Dancing script;
+      border-radius: 0 50% 0 50%;
+      border: 2px solid black;
     }
-    h3 {
-      color: #0000ff; /* Blue color for h3 */
+
+    @keyframes move {
+      50% {
+        transform: rotate(4deg);
+        background: transparent;
+      }
+      100% {
+        transform: rotate(-4deg);
+      }
     }
-    p {
-      margin-bottom: 10px;
+
+    .side-ban2 {
+      position: absolute;
+      height: 20px;
+      width: 650px;
+      background: yellow;
+      border: 2px solid black;
+      box-shadow: 5px 0 5px 0 black;
+      top: 720px;
+      left: 770px;
     }
-    .section {
-      margin-bottom: 30px;
+
+    .links {
+      position: absolute;
+      height: 100px;
+      width: 250px;
+      background: black;
+      top: 610px;
+      left: 1100px;
+      z-index: 1;
+      text-align: center;
+      box-shadow: 0 0 20px 5px black, inset 0 0 10px 0 black;
+      overflow: hidden;
+      text-overflow: ellipsis;
     }
-    .section-header {
-      background-color: #333;
-      color: #fff;
-      padding: 10px 20px;
-      border-top-left-radius: 10px;
-      border-top-right-radius: 10px;
+
+    .links h1 {
+      font-family: Dancing script;
+      color: red;
+      font-size: 2.5em;
     }
-    .section-body {
-      padding: 20px;
+
+    .links h2 {
+      font-family: Amatic SC;
+      color: black;
+      text-align: center;
+      font-size: 2.5em;
     }
-    .qualification-list {
+
+    .fa fa-github {
+      font-size: 48px;
+      left: 10px;
+    }
+
+    .links:hover {
+      position: absolute;
+      height: 400px;
+      top: 310px;
+      background: lightyellow;
+    }
+
+    .interest {
+      position: absolute;
+      height: 100px;
+      width: 200px;
+      background: yellow;
+      top: 320px;
+      left: 1200px;
+      border-radius: 50%;
+      box-shadow: 5px 10px 5px black, inset 0 0 5px 0 black;
+      text-align: center;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    .interest h2 {
+      font-family: Lobster;
+      font-size: 2em;
+    }
+
+    .interest:hover {
+      height: 300px;
+      top: 270px;
+      width: 230px;
+      border-radius: 40%;
+      background: black;
+      transform: rotate(5deg) scale(1.1);
+      left: 1100px;
+    }
+
+    .d {
+      font-family: Dancing Script;
+      font-size: 2.3em;
       list-style-type: none;
-      padding: 0;
-    }
-    .qualification-list li {
-      margin-bottom: 10px;
+      color: yellow;
     }
   </style>
 </head>
 <body>
-  <header>
- <!-- Container for the photo -->
-  <div class="photo-container">
-    <img src="photogrpah-Narender.jpg" alt="Narender">
+  <div class="side-ban">
+    <h2>Looking for Data Engineer Jobs<br> United States Of America</h2>
+    <h3>Why me?</h3>
+    <h4>Highly motivated with a goal-driven work ethic. Passionate about educating others and leveraging the society in the field of innovation and technology.</h4>
+    <div class="wave"></div>
   </div>
-    <h1>Narender Reddy Gopu</h1>
-    <p>Phone: 937-369-9454 | Email: narenderreddy0825@gmail.com</p>
-  </header>
-  <div class="container">
-    <div class="section">
-      <div class="section-header">
-        <h2>Professional Summary</h2>
-      </div>
-      <div class="section-body">
-      <ul>
-      <li>Over 4 years of experience dealing with structured and unstructured data, proficiently managing tasks like Data Mining, Data Acquisition, Data Validation, Predictive Modeling, and Data Visualization.</li>
-      <li>Proficient in Python ETL Development, crafting SQL queries, including multi-table joins, subqueries, and window functions, to extract, transform, and analyze complex datasets for actionable insights.</li>
-      <li>Crafted SQL queries for Data Modeling and database design, including multi-table joins, subqueries, and window functions, to extract, transform, and analyze complex datasets for actionable insights.</li>
-      <li>Employed Python scripts for meticulous data cleaning, incorporating regular expressions, custom functions, and statistical techniques to ensure data accuracy and maintain high data quality standards.</li>
-      <li>Expertise in developing and managing end-to-end ETL pipelines, optimizing database performance, and automating reporting processes, resulting in a 20% increase in data-driven decision-making and a substantial reduction in manual reporting efforts.</li>
-      <li>Proficiently engineered Python scripts for data processing and ETL (Extract, Transform, and Load) operations, optimizing data workflows for both efficiency and accuracy.</li>
-      <li>Strong expertise in Model Evaluation and Statistics, enabling sophisticated data-driven insights and informed decision-making with a focus on data warehousing best practices.</li>
-      <li>Proficient in advanced ML/Statistics Algorithms, encompassing Decision Trees, Random Forest, Predictive Modeling, Regression, Classification, Clustering, and Time Series Analysis contributing to robust data modeling solutions.</li>
-      <li>Leveraged the capabilities of Python packages such as NumPy, Pandas, Seaborn, and Matplotlib to execute intricate data manipulations and in-depth analysis, contributing significantly to data-driven insights and optimizing data warehousing strategies.</li>
-      <li>Developed Python scripts to automate data cleaning and reporting tasks, streamlining data management processes.</li>
-      <li>Crafted impactful visualizations using Power BI, Tableau, and Excel, enabling stakeholders to make informed decisions based on compelling data representations, while ensuring optimal data warehousing integration.</li>
-      <li>Proficient in designing, developing, and deploying data integration solutions. Utilized SQL for data transformations and seamlessly integrated DataStage with data warehouses within the ecosystem.</li>
-      <li>Demonstrated proficiency in cloud technologies, including Azure Data Factory, Azure Databricks, and AWS CloudFormation, with a focus on streamlining data workflows, optimizing query performance, and implementing real-time data processing solutions.</li>
-      <li>Leveraged cloud technologies like Azure Data Factory and Azure Databricks to design and automate data pipelines. Utilized Databricks for comprehensive data pipeline development and automation, encompassing cluster management, library implementation, and PySpark development for data transformations and integration.</li>
-      <li>Demonstrated expertise in Azure Databricks configuration and administration, ensuring optimal resource utilization and alignment with ETL/ELT processes.</li>
-      </ul>
-        
-      </div>
+  <img src="https://avatars.githubusercontent.com/u/137909898?s=400&v=4" height="250" width="250" />
+  <div class="tag">
+    <h2>Narender reddy Gopu</h2>
+    <h3>Texas ,USA</h3>
+    <h4>
+      <div class="fa fa-envelope"></div> narendergopu25@gmail.com
+    </h4>
+    <div class="loc-sign">
+      <div class="cir-sign"></div>
     </div>
-    <div class="section">
-      <div class="section-header">
-        <h2>Core Qualifications</h2>
-      </div>
-      <div class="section-body">
-        <ul class="qualification-list">
-        <ul>
-        <li><strong>Programming Languages:</strong> Python, Scala, SQL, PySpark, Go, PowerShell & T-SQL</li>
-        <li><strong>Hadoop Components / Big Data:</strong> PySpark, Airflow, HDFS, MapReduce, Hive, HBase, Sqoop, Impala, Zookeeper, Kafka & Yarn</li>
-        <li><strong>Cloud Platform:</strong> AWS (Lambda, S3, EC2, EMR, RDS), Microsoft Azure (Azure Databricks, Azure Data Factory, Azure Data Explorer, Azure HDInsight, ADLS), and GCP (Bigquery, Dataflow, Pub/sub)</li>
-        <li><strong>Reporting and ETL Tools:</strong> AWS GLUE, Tableau & Power BI</li>
-        <li><strong>Databases:</strong> Oracle, SQL Server, MS Access & NoSQL Database (HBase, MongoDB, DynamoDB)</li>
-        <li><strong>Big Data Technologies:</strong> Hadoop, HDFS, Hive, Oozie, Sqoop, Spark, Machine Learning, Pandas, NumPy, Seaborn, Impala, Zookeeper, Airflow, Informatica, Snowflake, Data Bricks, Kafka & Cloudera</li>
-        <li><strong>Data Analysis Libraries:</strong> Pandas, NumPy, SciPy, Scikit-learn & Matplotlib</li>
-        <li><strong>Containerization:</strong> Docker & Kubernetes</li>
-        <li><strong>CI/CD Tools:</strong> Jenkins, Ansible, GitLab & Bamboo</li>
-        <li><strong>Monitoring Tools:</strong> Quicksight, Data Dog, Tableau desktop</li>
-        <li><strong>Software Methodologies:</strong> Agile, Scrum & Waterfall</li>
-        <li><strong>Development Tools:</strong> Eclipse, PyCharm, IntelliJ, SSMS & Microsoft Office Suite (Word, Excel, PowerPoint)</li>
-        <li><strong>Version Control:</strong> GitHub, Gitlab</li>
-        </ul>
+  </div>
+  <div class="edu-banner">
+    <h2><u>E D U C A T I O N</u></h2>
+    <img src="https://www.topeducationdegrees.org/wp-content/uploads/2020/01/southern-arkansas-university.png" height="100" width="80" />
+    <h3> SAU , AR, USA</h3>
+    <h3>Computer Science.</h3>
+    <h3>GPA: 3.8</h3>
+  </div>
+  <div class="skills">
+    <h2>My Skills</h2>
+    <ul class="b">
+      <li>C,Java,HTML,CSS</li>
+      <li>Javascript,Python,SQL,SCALA </li>
+      <li>AWS,Azure,GCP</li>
+      <li>Air flow,Databricks</li>
+      <li>Datadog, Quicksight</li>
+      <li>Power Bi, tableau</li>
+      <li>Machine Learning</li>
+      <li>Deep Learning</li>
+      <li>Git/GitHub/linux/</li>
+      <li>DAatbricks, Spark,,Snowflake</li>
+      <li>Leadership</li>
+    </ul>
+  </div>
+  <div class="interest">
+    <h2>My Interests</h2>
+    <ul class="d">
+      <li>Tech Blogging</li>
+      <li>Open Source</li>
+      <li>Dance</li>
+      <li>Art</li>
+    </ul>
+  </div>
 
-      </div>
-    </div>
-    <div class="section">
-      <div class="section-header">
-        <h2>Education</h2>
-      </div>
-      <div class="section-body">
-        <p>Southern Arkansas University <br> Master's: Computer & Information Science <br> Jan 2021-May 2022</p>
-      </div>
-    </div>
-    <div class="section">
-      <div class="section-header">
-        <h2>Work Experience</h2>
-      </div>
-      <div class="section-body">
-        <h3>Data Engineer</h3>
-        <p>TEKsystems, Charlotte, NC <br> Dec 2022 - Present</p>
-        <ul class="qualification-list">
-          <li>Employed SQL and Python to execute comprehensive data analysis, applying techniques such as data visualization, data mining, and data warehousing, which resulted in extracting valuable insights from diverse datasets, contributing to a 20% increase in data-driven decision-making. Built and utilized data warehouses for efficient data storage and retrieval.</li>
-          <li>Conducted Exploratory Data Analysis (EDA) using Matplotlib and Seaborn, diligently maintained and monitored adherence program reporting, designed, experimented with, and tested hypotheses, and expertly applied advanced statistical and predictive modeling techniques. These efforts led to real-time decision-making improvements by 15%.</li>
-          <li>Developed solution-oriented views and dashboards within Power BI, integrating various chart types, including Pie Charts, Bar Charts, Tree Maps, Circle Views, Line Charts, Area Charts, and Scatter Plots, resulting in a remarkable 30% enhancement in data accessibility and understanding among stakeholders. These visualizations relied heavily on data models defined within the data warehousing system.</li>
-          <li>Installed and configured Apache airflow for workflow management and created workflows in python.</li>
-          <li>Developed a detailed project plan and helped manage the data conversion migration from the legacy system to the target snowflake database.</li>
-          <li>Drove the implementation of new processes to streamline cloud infrastructure management and optimize resource allocation.</li>
-          <li>Have Good Experience in Enterprise Data Lake (EDL) Big Data Integration Projects using Snap Logic.</li>
-          <li>Experience in creating methodologies and technologies that depict the flow of data within and between application systems and business functions/operations & data flow diagrams.</li>
-          <li>Worked on Big Data Integration and Analytics based on Hadoop, SOLR, Spark, Kafka, Storm, and web Methods technologies.</li>
-          <li>Used cloud shell SDK in GCP to configure the services Data Proc, storage, Big Query.</li>
-          <li>Evaluated effectiveness of current pricing architecture and developed recommendations for refinement or to capture new opportunities.</li>
-          <li>Design and Build CICD Pipelines for Google Cloud Platform (GCP) services: BigQuery, DataFlow, Pub/Sub, Data Fusion, and others.</li>
-        </ul>
-      </div>
-      <div class="section-body">
-        <h3>Big Data Engineer III</h3>
-        <p>Comcast, New York <br> June 22 - Dec 2022</p>
-        <ul class="qualification-list">
-          <li>Collaborated closely with a cross-functional team to design and develop secure, high-performance APIs and data pipelines. Successfully translated user needs into robust data solutions, optimizing ETL processes and data quality within the complex regulations and requirements of the banking and finance industry.</li>
-          <li>Leveraging Spark Streaming and Kafka, achieved real-time ingestion of high-volume data from diverse sources, enabling immediate identification and mitigation of potential fraudulent transactions and market fluctuations. This resulted in a 20% reduction in risk detection latency, allowing to react to threats faster and minimize potential losses.</li>
-          <li>Extracted and refined technical requirements and implemented agile methodologies to translate user needs into robust pipeline designs and solutions.</li>
-          <li>Developed and managed Azure Data Factory, for comprehensive ETL orchestration, incorporating Blob storage for efficient data persistence and backup on the Azure platform.</li>
-          <li>Designed and automated ETL pipelines using Databricks for streamlined data processing, ensuring effective workflow management. Utilized Python-based Spark applications to establish distributed environments for loading high-volume files using PySpark into Azure SQL DB tables.</li>
-          <li>Implemented streaming pipelines via Azure Event Hubs and Stream Analytics, facilitating data-driven workflow analysis.</li>
-          <li>Developed data workflows utilizing Databricks, Scala, and Spark, capturing data from Delta tables in Delta Lakes, contributing to robust ETL processes.</li>
-          <li>Created ETL Mapping with Talend Integration Suite to pull data from Source, apply transformations, and load data into target database.</li>
-          <li>Created Talend jobs to copy the files from one server to another and utilized Talend FTP Components.</li>
-          <li>Developed Spark Streaming scripts for real-time processing, enhancing data accuracy by consuming topics from Kafka. Leveraged Azure Data Factory with Blob storage for storage and backup, employing Python scripting and tools like Airflow for batch data and Kafka for streaming data, building robust ETL pipelines.</li>
-          <li>Operated ETL processes using Azure Databricks, employing Kafka for connecting to relational databases.</li>
-          <li>Automated data ingestion, transformation, and storage using Apache Spark and Delta Lake, ensuring data quality and integrity.</li>
-          <li>Implemented a distributed stream processing platform for low-latency data integration inside and outside Azure, facilitating real-time ETL capabilities.</li>
-          <li>Deployed Sqoop for data extraction from Teradata to HDFS and subsequent analysis of patterns back to Teradata.</li>
-          <li>Took charge of identifying and implementing SQL Server enhancements to optimize query performance and ensure data integrity.</li>
-          <li>Enhanced Hive queries using best practices, Hadoop, YARN, Python, and PySpark to optimize query performance.</li>
-        </ul>
-      </div>
-      <div class="section-body">
-        <h3>Data Engineer</h3>
-        <p>Apex CoVantage - Em Raaga Informatics, Herndon, VA <br> May 2017 - Dec 2020</p>
-        <ul class="qualification-list">
-          <li>Design and develop end-to-end data pipelines, utilizing AWS services such as Lambda for serverless computing, ensuring efficient and reliable data movement and transformation.</li>
-          <li>Leverage Snowflake's cloud-native data warehousing capabilities to design, build, and manage scalable and performant data storage solutions that align with business needs.</li>
-          <li>Develop and implement ETL processes using AWS Glue or custom Python scripts to extract, transform, and load data from various sources into Snowflake for further analysis.</li>
-          <li>Craft and optimize complex SQL queries to retrieve and manipulate data efficiently within Snowflake's data warehouse environment, ensuring optimal query performance.</li>
-          <li>Utilize AWS Lambda to process and analyze real-time data streams, enabling timely insights and actions based on dynamic data sources.</li>
-          <li>Develop Python scripts to automate data-related tasks, perform data validations, and execute data transformations, contributing to the efficiency and accuracy of data workflows.</li>
-          <li>Implement data quality checks, validations, and monitoring processes to ensure the integrity, consistency, and accuracy of data stored in Snowflake.</li>
-          <li>Integrate data from diverse sources, both internal and external, using AWS services like Data Pipeline, Lambda, or other suitable methods, ensuring seamless data flow.</li>
-          <li>Design automated data loading processes that efficiently handle data updates, inserts, and deletes within Snowflake's data warehouse, ensuring data is kept up to date.</li>
-          <li>Implement security best practices and ensure compliance with data governance standards while handling sensitive data within AWS and Snowflake environments.</li>
-          <li>Identify and resolve data-related issues promptly, applying debugging skills and root cause analysis to maintain the reliability of data engineering solutions.</li>
-          <li>Analyzed the system for new enhancements/functionalities and performed Impact analysis of the application for ETL changes.</li>
-        </ul>
-      </div>
-    </div>
-    <div class="section">
-      <div class="section-header">
-        <h2>Certifications</h2>
-      </div>
-      <div class="section-body">
-        <ul class="qualification-list">
-          <li>Microsoft Certified: Azure Developer Associate</li>
-          <li>Certified in AWS Academy Data Analytics by AWS Academy Graduate</li>
-        </ul>
-      </div>
-    </div>
+  <div class="exp">
+    <h2><u>&nbsp E X P E R I E N C E</u></h2>
+    <h3>
+      <ul class="c">
+        <li>Tek systems Walamrt <br>Data Engineer </li>
+        <hr>
+        <li>Comcast <br>Data Engineer</li>
+        <hr>
+        <li>Apex CoVantage</li>
+        <hr>
+        <li>Infylogy</li>
+        <hr>
+        Intern Thermal plant
+        <hr>
+        Intern BSNL
+        <hr>
+      </ul>
+    </h3>
+  </div>
+  <div class="contact">
+    <a href="http://localhost:9090/demo/">
+      <h1>My Website</h1>
+    </a>
+  </div>
+  <div class="side-ban2"></div>
+  <div class="links">
+    <h1>Social Links</h1>
+    <hr>
+    <a href="https://github.com/Narenderreddygopu" class="button" style="font-size:30px">GitHub &nbsp;<i class="fa fa-github"></i></a>
+    <hr>
+    <a href="https://twitter.com" class="button" style="font-size:30px">Twitter &nbsp;<i class="fa fa-twitter"></i></a>
+    <hr>
+    <a href="https://codepen.io/Narender-Reddy-Gopu" class="button" style="font-size:30px">Codepen &nbsp;<i class="fa fa-codepen"></i></a>
+    <hr>
+    <a href="https://www.linkedin.com/in/narendergopu" class="button" style="font-size:30px">LinkedIn &nbsp;<i class="fa fa-linkedin"></i></a>
+    <hr>
+    <a href="https://www.instagram.com/" class="button" style="font-size:30px">Instagram <i class="fa fa-instagram"></i></a>
+    <hr>
   </div>
 </body>
 </html>
+
