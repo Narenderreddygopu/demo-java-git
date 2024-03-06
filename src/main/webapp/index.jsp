@@ -93,19 +93,24 @@
         <h2>Professional Summary</h2>
       </div>
       <div class="section-body">
-        <p>
-          Over 4 years of experience dealing with structured and unstructured data, proficiently managing tasks like Data Mining, Data Acquisition, Data Validation, Predictive Modeling, and Data Visualization.
-          Proficient in Python ETL Development, crafting SQL queries, including multi-table joins, subqueries, and window functions, to extract, transform, and analyze complex datasets for actionable insights.
-          Crafted SQL queries for Data Modeling and database design, including multi-table joins, subqueries, and window functions, to extract, transform, and analyze complex datasets for actionable insights.
-          Employed Python scripts for meticulous data cleaning, incorporating regular expressions, custom functions, and statistical techniques to ensure data accuracy and maintain high data quality standards. 
-          Expertise in developing and managing end-to-end ETL pipelines, optimizing database performance, and automating reporting processes, resulting in a 20% increase in data-driven decision-making and a substantial reduction in manual reporting efforts.
-          Proficiently engineered Python scripts for data processing and ETL (Extract, Transform, and Load) operations, optimizing data workflows for both efficiency and accuracy. Strong expertise in Model Evaluation and Statistics, enabling sophisticated data-driven insights and informed decision-making with a focus on data warehousing best practices.
-          Proficient in advanced ML/Statistics Algorithms, encompassing Decision Trees, Random Forest, Predictive Modeling, Regression, Classification, Clustering and Time Series Analysis contributing to robust data modeling solutions. Leveraged the capabilities of Python packages such as NumPy, Pandas, Seaborn, and Matplotlib to execute intricate data manipulations and in-depth analysis, contributing significantly to data-driven insights and optimizing data warehousing strategies.
-          Developed Python scripts to automate data cleaning and reporting tasks, streamlining data management processes. Crafted impactful visualizations using Power BI, Tableau, and Excel, enabling stakeholders to make informed decisions based on compelling data representations, while ensuring optimal data warehousing integration. 
-          Proficient in designing, developing, and deploying data integration solutions. Utilized SQL for data transformations and seamlessly integrated DataStage with data warehouses within the ecosystem. 
-          Demonstrated proficiency in cloud technologies, including Azure Data Factory, Azure Databricks, and AWS CloudFormation, with a focus on streamlining data workflows, optimizing query performance, and implementing real-time data processing solutions. 
-          Leveraged cloud technologies like Azure Data Factory and Azure Databricks to design and automate data pipelines. Utilized Databricks for comprehensive data pipeline development and automation, encompassing cluster management, library implementation, and PySpark development for data transformations and integration. Demonstrated expertise in Azure Databricks configuration and administration, ensuring optimal resource utilization and alignment with ETL/ELT processes.
-        </p>
+      <ul>
+      <li>Over 4 years of experience dealing with structured and unstructured data, proficiently managing tasks like Data Mining, Data Acquisition, Data Validation, Predictive Modeling, and Data Visualization.</li>
+      <li>Proficient in Python ETL Development, crafting SQL queries, including multi-table joins, subqueries, and window functions, to extract, transform, and analyze complex datasets for actionable insights.</li>
+      <li>Crafted SQL queries for Data Modeling and database design, including multi-table joins, subqueries, and window functions, to extract, transform, and analyze complex datasets for actionable insights.</li>
+      <li>Employed Python scripts for meticulous data cleaning, incorporating regular expressions, custom functions, and statistical techniques to ensure data accuracy and maintain high data quality standards.</li>
+      <li>Expertise in developing and managing end-to-end ETL pipelines, optimizing database performance, and automating reporting processes, resulting in a 20% increase in data-driven decision-making and a substantial reduction in manual reporting efforts.</li>
+      <li>Proficiently engineered Python scripts for data processing and ETL (Extract, Transform, and Load) operations, optimizing data workflows for both efficiency and accuracy.</li>
+      <li>Strong expertise in Model Evaluation and Statistics, enabling sophisticated data-driven insights and informed decision-making with a focus on data warehousing best practices.</li>
+      <li>Proficient in advanced ML/Statistics Algorithms, encompassing Decision Trees, Random Forest, Predictive Modeling, Regression, Classification, Clustering, and Time Series Analysis contributing to robust data modeling solutions.</li>
+      <li>Leveraged the capabilities of Python packages such as NumPy, Pandas, Seaborn, and Matplotlib to execute intricate data manipulations and in-depth analysis, contributing significantly to data-driven insights and optimizing data warehousing strategies.</li>
+      <li>Developed Python scripts to automate data cleaning and reporting tasks, streamlining data management processes.</li>
+      <li>Crafted impactful visualizations using Power BI, Tableau, and Excel, enabling stakeholders to make informed decisions based on compelling data representations, while ensuring optimal data warehousing integration.</li>
+      <li>Proficient in designing, developing, and deploying data integration solutions. Utilized SQL for data transformations and seamlessly integrated DataStage with data warehouses within the ecosystem.</li>
+      <li>Demonstrated proficiency in cloud technologies, including Azure Data Factory, Azure Databricks, and AWS CloudFormation, with a focus on streamlining data workflows, optimizing query performance, and implementing real-time data processing solutions.</li>
+      <li>Leveraged cloud technologies like Azure Data Factory and Azure Databricks to design and automate data pipelines. Utilized Databricks for comprehensive data pipeline development and automation, encompassing cluster management, library implementation, and PySpark development for data transformations and integration.</li>
+      <li>Demonstrated expertise in Azure Databricks configuration and administration, ensuring optimal resource utilization and alignment with ETL/ELT processes.</li>
+      </ul>
+        
       </div>
     </div>
     <div class="section">
