@@ -118,20 +118,21 @@
       </div>
       <div class="section-body">
         <ul class="qualification-list">
-  <li><strong>Programming Languages:</strong> Python, Scala, SQL, PySpark, Go, PowerShell & T-SQL</li>
-  <li><strong>Hadoop Components / Big Data:</strong> PySpark, Airflow, HDFS, MapReduce, Hive, HBase, Sqoop, Impala, Zookeeper, Kafka & Yarn</li>
-  <li><strong>Cloud Platform:</strong> AWS (Lambda, S3, EC2, EMR, RDS), Microsoft Azure (Azure Databricks, Azure Data Factory, Azure Data Explorer, Azure HDInsight, ADLS), and GCP (Bigquery, Dataflow, Pub/sub)</li>
-  <li><strong>Reporting and ETL Tools:</strong> AWS GLUE, Tableau & Power BI</li>
-  <li><strong>Databases:</strong> Oracle, SQL Server, MS Access & NoSQL Database (HBase, MongoDB, DynamoDB)</li>
-  <li><strong>Big Data Technologies:</strong> Hadoop, HDFS, Hive, Oozie, Sqoop, Spark, Machine Learning, Pandas, NumPy, Seaborn, Impala, Zookeeper, Airflow, Informatica, Snowflake, Data Bricks, Kafka & Cloudera</li>
-  <li><strong>Data Analysis Libraries:</strong> Pandas, NumPy, SciPy, Scikit-learn & Matplotlib</li>
-  <li><strong>Containerization:</strong> Docker & Kubernetes</li>
-  <li><strong>CI/CD Tools:</strong> Jenkins, Ansible, GitLab & Bamboo</li>
-  <li><strong>Monitoring Tools:</strong> Quicksight, Data Dog, Tableau desktop</li>
-  <li><strong>Software Methodologies:</strong> Agile, Scrum & Waterfall</li>
-  <li><strong>Development Tools:</strong> Eclipse, PyCharm, IntelliJ, SSMS & Microsoft Office Suite (Word, Excel, PowerPoint)</li>
-  <li><strong>Version Control:</strong> GitHub, Gitlab</li>
-</ul>
+        <ul>
+        <li><strong>Programming Languages:</strong> Python, Scala, SQL, PySpark, Go, PowerShell & T-SQL</li>
+        <li><strong>Hadoop Components / Big Data:</strong> PySpark, Airflow, HDFS, MapReduce, Hive, HBase, Sqoop, Impala, Zookeeper, Kafka & Yarn</li>
+        <li><strong>Cloud Platform:</strong> AWS (Lambda, S3, EC2, EMR, RDS), Microsoft Azure (Azure Databricks, Azure Data Factory, Azure Data Explorer, Azure HDInsight, ADLS), and GCP (Bigquery, Dataflow, Pub/sub)</li>
+        <li><strong>Reporting and ETL Tools:</strong> AWS GLUE, Tableau & Power BI</li>
+        <li><strong>Databases:</strong> Oracle, SQL Server, MS Access & NoSQL Database (HBase, MongoDB, DynamoDB)</li>
+        <li><strong>Big Data Technologies:</strong> Hadoop, HDFS, Hive, Oozie, Sqoop, Spark, Machine Learning, Pandas, NumPy, Seaborn, Impala, Zookeeper, Airflow, Informatica, Snowflake, Data Bricks, Kafka & Cloudera</li>
+        <li><strong>Data Analysis Libraries:</strong> Pandas, NumPy, SciPy, Scikit-learn & Matplotlib</li>
+        <li><strong>Containerization:</strong> Docker & Kubernetes</li>
+        <li><strong>CI/CD Tools:</strong> Jenkins, Ansible, GitLab & Bamboo</li>
+        <li><strong>Monitoring Tools:</strong> Quicksight, Data Dog, Tableau desktop</li>
+        <li><strong>Software Methodologies:</strong> Agile, Scrum & Waterfall</li>
+        <li><strong>Development Tools:</strong> Eclipse, PyCharm, IntelliJ, SSMS & Microsoft Office Suite (Word, Excel, PowerPoint)</li>
+        <li><strong>Version Control:</strong> GitHub, Gitlab</li>
+        </ul>
 
       </div>
     </div>
