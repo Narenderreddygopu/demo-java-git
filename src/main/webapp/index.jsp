@@ -24,7 +24,6 @@
       top: 20px;
       right: 20px;
     }
-
     /* Style for the photo */
     .photo-container img {
       width: 150px; /* Set width of the photo */
