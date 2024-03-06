@@ -9,10 +9,10 @@
       font-family: Arial, sans-serif;
       margin: 0;
       padding: 0;
-      background-color: #f4f4f4;
+      background-color: red;
     }
     header {
-      background-color: #333;
+      background-color: red;
       color: #fff;
       padding: 20px;
       text-align: center;
