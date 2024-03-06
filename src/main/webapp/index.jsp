@@ -11,6 +11,25 @@
       padding: 0;
       background-color: #c0c0c0;
     }
+    body {
+      background-color: #f0f0f0; /* Background color */
+      color: #333; /* Text color */
+      padding-top: 20px; /* Add some padding at the top */
+      font-family: Arial, sans-serif; /* Set font family */
+    }
+
+    /* Container for the photo */
+    .photo-container {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+    }
+
+    /* Style for the photo */
+    .photo-container img {
+      width: 150px; /* Set width of the photo */
+      border-radius: 50%; /* Make it circular */
+    }
     header {
       background-color: #c0c0c0;
       color: #404040;
