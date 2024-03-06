@@ -76,7 +76,7 @@
   <header>
  <!-- Container for the photo -->
   <div class="photo-container">
-    <img src="path/to/your/photo.jpg" alt="Your Name">
+    <img src=""C:\Users\gopur\OneDrive\Desktop\My Data\All In One\OPT\photogrpah-Narender.jpg"" alt="Narender">
   </div>
     <h1>Narender Reddy Gopu</h1>
     <p>Phone: 937-369-9454 | Email: narenderreddy0825@gmail.com</p>
