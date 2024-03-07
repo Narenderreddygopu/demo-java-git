@@ -283,7 +283,6 @@
       border-radius: 0 50% 0 50%;
       border: 2px solid black;
     }
-
     @keyframes move {
       50% {
         transform: rotate(4deg);
