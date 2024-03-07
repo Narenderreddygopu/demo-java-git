@@ -23,7 +23,6 @@
       border: 5px solid black;
       box-shadow: 0 5px 10px 0 black;
     }
-
     img:hover {
       filter: grayscale(100%);
       transform: scale(1.1);
